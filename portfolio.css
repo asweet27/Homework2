@@ -1,0 +1,15 @@
+.container2 {
+  border-style: solid;
+  border-width: 22px;
+  border-color: rgb(51, 47, 46);
+  padding: 25px 25px 25px 25px;
+}
+#floatLeft {
+  float: left;
+  clear: both;
+  display: block;
+}
+#floatRight {
+  float: right;
+  
+}
