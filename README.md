@@ -1,1 +1,2 @@
-# Homework2
+    For the second homework assignment, we were required to create the shell of what will eventually become our portfolio. We were required to make it responsive, add a nav bar and add live links. Although this assignment was challenging, I really did try my best and used several resources. 
+    I have an About Me page, a Contact page, and a page to house my projects (my live portfolio.) Additionally, I added a link that will take the reader straight to my LinkedIn page. 

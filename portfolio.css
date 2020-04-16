@@ -1,14 +1,52 @@
-.container2 {
-  border-style: solid;
-  border-width: 22px;
-  border-color: rgb(51, 47, 46);
-  padding: 25px 25px 25px 25px;
+#floatLeft{
+    width:100%;
+    clear: both;
 }
 
-#floatLeft{
-  float: left;
+#floatL {
+    float: left;
+    clear: both;
+
 }
-#floatRight {
-  margin-left: 15px;
-  overflow: auto;
+
+.container{
+    float:left;
+}
+
+.Container2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: grey;
+}
+
+#whiteBox{
+    background-color: white;
+    padding:5%;
+    margin: 5%;
+    height:640px;
+}
+
+#aboutMe{
+    font-size:1.5em;
+}
+
+
+#descriptionText{
+    float:left;
+    line-height:2em;
+    color:darkslategray
+}
+
+#whiteBox2 {
+    background-color: white;
+    padding:5%;
+    margin: 5%;
+    height:630px; 
+}
+
+#contactMe {
+    font-size: 1.5em;
 }
