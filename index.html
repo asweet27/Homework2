@@ -1,58 +1,72 @@
 <!DOCTYPE html>
-  <head>
-    <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="portfolio.css"/>
+<html lang="en">
+<head>
+
+  <title>Anastasia Saint Jean</title>
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+
+
   </head>
-  
-  <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          <li class="nav-item">
-              <a class="nav-link" target="_blank" href="http://www.linkedin.com/in/anastasia-sweet-bb871011a">LinkedIn</a>
-            </li>
-        </ul>
-      </div>
-    </nav>
-  </div> 
-    <div class="container" id="whiteBox">
-      <div class="col-md-6">
-        <div class="row">
-          <h1 id="aboutMe">ABOUT ME</h1>
-      <img id="floatLeft" src="Headshot.jpeg">
-      <br>
-      <br>
-      <p id="floatL">
-          Hello, and welcome to my live portfolio! My name is Anastasia Saint Jean and I am professional web developer
-          and Digital Marketing strategist. I have earned my bachelors in Psychology, along with my masters in Digital
-          Media and Communications. Additionally, I have a certificate of completion from the University of Miami in Full Stack Web 
-          Development. I am confident that my educational background and professional experience has afforded me the skills necessary to
-          understand a consumers point of view and create content based on their needs. Please enjoy exploring my various accomplishments
-          as it pertains to web development, and feel free to visit the "contact" link for any additional questions.
-      </p>
-    </div>
-  </div>
-</div>
-
-
-
-
+</head>
+<body>
  
+  <div class="wrapper">
+
+    <header>
+      <div id="header_block">
+        <div id="header_name_text_block"><h1 id="header_name_text">Anastasia Saint Jean</h1></div>
+        <nav>
+          <div class="nav_link"><p><a href="index.html">About</a></p></div>
+          <div class="nav_vertical_bar"></div>
+          <div class="nav_link"><p><a href="portfolio.html">Portfolio</a></p></div>
+          <div class="nav_vertical_bar"></div>
+          <div class="nav_link"><p><a href="contact.html">Contact</a></p></div>
+        </nav>
+      </div>
+    </header>
+
+    <div id="main_block">
+      <section>
+        <h2>About Me</h2>
+        <div id="section_grey_line"></div>
+        <img id="profile_image" src="" alt="Anastasia Saint Jean">
+
+    <p>Hello!</p>
+  <br>
+
+    <p> Hello, and welcome to my live portfolio! My name is Anastasia Saint Jean and I am professional web developer
+      and Digital Marketing strategist. I have earned my bachelors in Psychology, along with my masters in Digital
+      Media and Communications. Additionally, I have a certificate of completion from the University of Miami in Full Stack Web 
+      Development. </p>
+    <br>
+    <p>I am confident that my educational background and professional experience has afforded me the skills necessary to
+      understand a consumers point of view and create content based on their needs. Please enjoy exploring my various accomplishments
+      as it pertains to web development, and feel free to visit the "contact" link for any additional questions.</p>
+    </section>
+
+      <aside>
+        <h3>Connect with Me</h3>
+        <div id="aside_grey_line"></div>
+        <div id="social_images">
+           <a href="https://github.com/asweet27" target="_blank">
+        <img src="assets/images/GitHub.png" alt="GitHub">
+        </a>
+          <a href="https://linkedin.com/in/anastasia-sweet-bb871011a" target="_blank">
+        <img src="assets/images/LinkedIn.png" alt="LinkedIn">
+        </a>
+        </div>
+      </aside>
+    </div>
   
-  </body>
+    <!-- "push" div for sticky footer -->
+    <div class="push"></div>
+  </div>
+
+  <footer>
+    <div id="footer_text">&copy; Copyright 2020 Anastasia Saint Jean</div>
+  </footer>
+</body>
 </html>

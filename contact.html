@@ -1,53 +1,67 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="portfolio.css"/>
-  </head>
+	<title>Anastasia Saint Jean</title>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-        <li class="nav-item">
-            <a class="nav-link" href="http:www.linkedin.com/in/anastasia-sweet-bb871011a">LinkedIn</a>
-          </li>
-      </ul>
-    </div>
-  </nav>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+	<!-- "wrapper" div for sticky footer -->
+	<div class="wrapper">
 
-  <div class="Container2" id="whiteBox2">
-  <form>
-    <h1 id="contactMe">CONTACT ME</h1>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Name</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johnsmith@example.com">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
-    </div>
-  </div>
-  <div class="col-auto">
-    <button type="submit" class="btn btn-primary mb-2">Submit</button>
-  </div>
-</div>
-  </form>
-</div>
+		<header>
+			<div id="header_block">
+				<div id="header_name_text_block"><h1 id="header_name_text">Anastasia Saint Jean</h1></div>
+				<nav>
+					<div class="nav_link"><p><a href="index.html">About</a></p></div>
+					<div class="nav_vertical_bar"></div>
+					<div class="nav_link"><p><a href="portfolio.html">Portfolio</a></p></div>
+					<div class="nav_vertical_bar"></div>
+					<div class="nav_link"><p><a href="contact.html">Contact</a></p></div>
+				</nav>
+			</div>
+		</header>
+
+		<div id="main_block">
+			<section>
+				<h2>Contact</h2>
+				<div id="section_grey_line"></div>
+				
+				<form>
+					<label>Name</label><br/>
+					<input type="text" name="name" value="John Smith"><br/><br/>
+
+					<label>Email</label><br/>
+					<input type="email" name="email" value="example@gmail.com"><br/><br/>
+
+					<label>Message</label><br/>
+					<textarea name="message"></textarea><br/>
+
+					<div id="submit_button"><input type="submit" value="Submit"></div>
+				</form>
+			</section>
+
+			<aside>
+				<h3>Connect with Me</h3>
+				<div id="aside_grey_line"></div>
+				<div id="social_images">
+				<a href="https://github.com/asweet27" target="_blank">
+        <img src="assets/images/GitHub.png" alt="GitHub">
+        </a>
+   <a href="https://linkedin.com/in/anastasia-sweet-bb871011a" target="_blank">
+        <img src="assets/images/LinkedIn.png" alt="LinkedIn">
+        </a>	
+				</div>
+			</aside>
+		</div>
+	
+		<!-- "push" div for sticky footer -->
+		<div class="push"></div>
+	</div>
+
+	<footer>
+		<div id="footer_text">&copy; Copyright 2020 Anastasia Saint Jean</div>
+	</footer>
+</body>
+</html>
